@@ -1,4 +1,20 @@
-# PruebaTecnica
+proyecto realizado en :
+
+angular version 16
+ngx bootstrap version 11
+
+requisitos:
+node v16.16.0
+
+este proyecto implementa guard para el manejo de la verificacion de rutas
+utiliza interceptor al realizar las peticiones Http para mostrar una animacion mientras se espera una respuesta de parte de las API
+tambien se usaron reactive Forms para los formularios de inicio de sesion, editar y crear
+creacion de servicios para el consumo de APIs(https://jsonplaceholder.typicode.com/posts) de donde se obtine la informacion
+se utiliza sessionstorage para el manejo de sesiones
+se implementa el lazyloading para las diferentes paginas y mejorar el rendimiento en la carga de la pagina
+impemantacion del framework css bootstrap(system grid, alerts, buttons, tables, navbar, modals) 
+
+# DemoAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
